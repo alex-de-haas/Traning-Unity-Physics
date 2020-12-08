@@ -1,26 +1,27 @@
 {
   "dependencies": {
     "ascetic.unity.core": {
-      "version": "file:C:/Users/Ascetic/source/repos/ascetic.unity.core",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://ascetic.pro/npm"
     },
     "ascetic.unity.pixeltext": {
-      "version": "file:C:/Users/Ascetic/source/repos/ascetic.unity.pixeltext",
+      "version": "1.0.1",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
-        "ascetic.unity.core": ""
-      }
+        "ascetic.unity.core": "1.0.1"
+      },
+      "url": "https://ascetic.pro/npm"
     },
     "ascetic.unity.prototype": {
-      "version": "file:C:/Users/Ascetic/source/repos/ascetic.unity.prototype",
+      "version": "1.0.1",
       "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "ascetic.unity.core": ""
-      }
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://ascetic.pro/npm"
     },
     "com.unity.collab-proxy": {
       "version": "1.3.9",

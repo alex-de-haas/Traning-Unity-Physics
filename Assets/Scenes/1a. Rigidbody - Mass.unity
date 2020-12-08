@@ -567,11 +567,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950547adc03c7374ebbdaf0aed8490f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cube: {fileID: 4119477946725178315, guid: d458cdc04c931974cb412189413fee0e, type: 3}
-  Font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
-  Text: 100
-  TextSize: 0.4
-  TextAlignment: 1
+  _pixel: {fileID: 4119477946725178315, guid: d458cdc04c931974cb412189413fee0e, type: 3}
+  _font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
+  _text: 100
+  _textSize: 0.4
+  _textAlignment: 1
 --- !u!1 &293953556
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,11 +601,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950547adc03c7374ebbdaf0aed8490f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cube: {fileID: 4119477946725178315, guid: d458cdc04c931974cb412189413fee0e, type: 3}
-  Font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
-  Text: RIGIDBODY
-  TextSize: 1
-  TextAlignment: 1
+  _pixel: {fileID: 4119477946725178315, guid: d458cdc04c931974cb412189413fee0e, type: 3}
+  _font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
+  _text: RIGIDBODY
+  _textSize: 1
+  _textAlignment: 1
 --- !u!4 &293953558
 Transform:
   m_ObjectHideFlags: 0
@@ -663,11 +663,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950547adc03c7374ebbdaf0aed8490f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cube: {fileID: 4119477946725178315, guid: d458cdc04c931974cb412189413fee0e, type: 3}
-  Font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
-  Text: 1
-  TextSize: 0.4
-  TextAlignment: 1
+  _pixel: {fileID: 4119477946725178315, guid: d458cdc04c931974cb412189413fee0e, type: 3}
+  _font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
+  _text: 1
+  _textSize: 0.4
+  _textAlignment: 1
 --- !u!1 &653260035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,11 +1338,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950547adc03c7374ebbdaf0aed8490f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cube: {fileID: 4119477946725178315, guid: 1e77e0db9c7ec61448e290ae866d8cee, type: 3}
-  Font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
-  Text: MASS
-  TextSize: 1.8
-  TextAlignment: 1
+  _pixel: {fileID: 4119477946725178315, guid: 1e77e0db9c7ec61448e290ae866d8cee, type: 3}
+  _font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
+  _text: MASS
+  _textSize: 1.8
+  _textAlignment: 1
 --- !u!4 &1315087410
 Transform:
   m_ObjectHideFlags: 0
@@ -1466,11 +1466,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950547adc03c7374ebbdaf0aed8490f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cube: {fileID: 4119477946725178315, guid: d458cdc04c931974cb412189413fee0e, type: 3}
-  Font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
-  Text: 10
-  TextSize: 0.4
-  TextAlignment: 1
+  _pixel: {fileID: 4119477946725178315, guid: d458cdc04c931974cb412189413fee0e, type: 3}
+  _font: {fileID: 11400000, guid: c35f334ef49db244d9592560ea40de8b, type: 2}
+  _text: 10
+  _textSize: 0.4
+  _textAlignment: 1
 --- !u!1 &1687258581
 GameObject:
   m_ObjectHideFlags: 0
