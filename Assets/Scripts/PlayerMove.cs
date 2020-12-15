@@ -56,6 +56,7 @@ public class PlayerMove : MonoBehaviour
         translation += Input.GetAxis("Vertical") * Vector3.forward * Time.deltaTime * speed;
         translation += Input.GetAxis("Horizontal") * Vector3.right * Time.deltaTime * speed;
 
+        /*
         if (Input.GetKey(KeyCode.Space))
         {
             translation += Vector3.up * Time.deltaTime * speed;
@@ -64,8 +65,9 @@ public class PlayerMove : MonoBehaviour
         {
             translation += Vector3.down * Time.deltaTime * speed;
         }
+        */
 
-        var rotatedTranslation = Quaternion.Euler(0, _yaw, 0) * translation;
+        var rotatedTranslation = Quaternion.Euler(_pitch, _yaw, 0) * translation;
         transform.position += rotatedTranslation;
         transform.eulerAngles = new Vector3(_pitch, _yaw, 0);
     }

@@ -18,7 +18,7 @@ public class TimeManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Pause))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             IsPaused = !IsPaused;
             SetTimeScale();
