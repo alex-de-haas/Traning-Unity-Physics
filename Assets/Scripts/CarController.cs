@@ -27,6 +27,8 @@ public class CarController : MonoBehaviour
     [SerializeField] private Transform rearLeftWheelTransform;
     [SerializeField] private Transform rearRightWheelTransform;
 
+    [SerializeField] private bool inputEnabled = true;
+
     private void Start()
     {
         GetComponent<Rigidbody>().centerOfMass = centerOfMass;
@@ -43,9 +45,12 @@ public class CarController : MonoBehaviour
 
     private void GetInput()
     {
-        horizontalInput = Input.GetAxis(HORIZONTAL);
-        verticalInput = Input.GetAxis(VERTICAL);
-        isBreaking = Input.GetKey(KeyCode.Space);
+        if (inputEnabled)
+        {
+            horizontalInput = Input.GetAxis(HORIZONTAL);
+            verticalInput = Input.GetAxis(VERTICAL);
+            isBreaking = Input.GetKey(KeyCode.Space);
+        }
     }
 
     private void HandleMotor()
