@@ -356,8 +356,8 @@ FixedJoint:
   m_GameObject: {fileID: 1957125850132620330}
   m_ConnectedBody: {fileID: 1957531201102824211}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: 50000
-  m_BreakTorque: 50000
+  m_BreakForce: 40000
+  m_BreakTorque: 40000
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
@@ -569,8 +569,8 @@ FixedJoint:
   m_GameObject: {fileID: 1957157169547274552}
   m_ConnectedBody: {fileID: 1957531201102824211}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: 50000
-  m_BreakTorque: 50000
+  m_BreakForce: 40000
+  m_BreakTorque: 40000
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
@@ -797,8 +797,8 @@ FixedJoint:
   m_GameObject: {fileID: 1957243831444777488}
   m_ConnectedBody: {fileID: 1957531201102824211}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: 20000
-  m_BreakTorque: 20000
+  m_BreakForce: 10000
+  m_BreakTorque: 10000
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
@@ -995,8 +995,8 @@ FixedJoint:
   m_GameObject: {fileID: 1957288527250485772}
   m_ConnectedBody: {fileID: 1957531201102824211}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: 50000
-  m_BreakTorque: 50000
+  m_BreakForce: 40000
+  m_BreakTorque: 40000
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
@@ -1676,6 +1676,7 @@ MonoBehaviour:
   frontRightWheeTransform: {fileID: 1954914498867154004}
   rearLeftWheelTransform: {fileID: 1954614997191117892}
   rearRightWheelTransform: {fileID: 1963186919723982052}
+  inputEnabled: 1
 --- !u!1 &1957578942859931812
 GameObject:
   m_ObjectHideFlags: 0
@@ -2539,8 +2540,8 @@ FixedJoint:
   m_GameObject: {fileID: 1957841973991643556}
   m_ConnectedBody: {fileID: 1957531201102824211}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: 50000
-  m_BreakTorque: 50000
+  m_BreakForce: 40000
+  m_BreakTorque: 40000
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
@@ -2831,8 +2832,8 @@ FixedJoint:
   m_GameObject: {fileID: 1958209630601820114}
   m_ConnectedBody: {fileID: 1957531201102824211}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: 20000
-  m_BreakTorque: 20000
+  m_BreakForce: 10000
+  m_BreakTorque: 10000
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
