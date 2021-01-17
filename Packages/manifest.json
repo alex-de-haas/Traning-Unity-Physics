@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "ascetic.unity.pixeltext": "1.0.3",
-    "ascetic.unity.prototype": "1.0.4",
+    "ascetic.unity.pixeltext": "1.0.1",
+    "ascetic.unity.prototype": "1.0.1",
     "com.unity.collab-proxy": "1.3.9",
     "com.unity.ide.rider": "2.0.7",
     "com.unity.ide.visualstudio": "2.0.5",
@@ -46,8 +46,8 @@
   },
   "scopedRegistries": [
     {
-      "name": "Ascetic's Registry",
-      "url": "https://ascetic.pro/npm",
+      "name": "NPM",
+      "url": "https://registry.npmjs.org",
       "scopes": [
         "ascetic"
       ]
