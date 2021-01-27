@@ -37,6 +37,7 @@ public class PlayerShoot : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(transform.position, transform.forward, out hit, Mathf.Infinity))
             {
+                var force = Force * (1 / Time.timeScale);
                 Debug.Log($"Raycast hit: {hit.distance}");
                 if (ShootType == ShootType.ExplosionForce)
                 {
@@ -46,7 +47,7 @@ public class PlayerShoot : MonoBehaviour
                         var rb = collider.GetComponent<Rigidbody>();
                         if (rb != null)
                         {
-                            rb.AddExplosionForce(Force, hit.point, ExplosionRadius);
+                            rb.AddExplosionForce(force, hit.point, ExplosionRadius);
                         }
                     }
                 }
@@ -54,11 +55,11 @@ public class PlayerShoot : MonoBehaviour
                 {
                     if (ShootType == ShootType.ForceAtPoint)
                     {
-                        hit.rigidbody.AddForceAtPosition(Force * transform.forward, hit.point);
+                        hit.rigidbody.AddForceAtPosition(force * transform.forward, hit.point);
                     }
                     if (ShootType == ShootType.Force)
                     {
-                        hit.rigidbody.AddForce(Force * transform.forward);
+                        hit.rigidbody.AddForce(force * transform.forward);
                     }
                 }
             }

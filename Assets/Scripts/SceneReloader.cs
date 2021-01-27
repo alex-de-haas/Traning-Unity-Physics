@@ -5,7 +5,7 @@ public class SceneReloader : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.F1))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
