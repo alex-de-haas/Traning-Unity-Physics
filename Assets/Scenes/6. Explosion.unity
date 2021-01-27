@@ -373,6 +373,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95fbc6983000eb040b5dd3a67de6b39a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Offset: {x: 0, y: 0, z: 0}
+  ExplosionForce: 10000
+  ExplosionRadius: 10
+  Size: 10
   Cube: {fileID: 967903810207754958, guid: 699afd77899f32b47b28bd98ed76ed86, type: 3}
   Materials:
   - {fileID: 2100000, guid: 5f3f7155680de8b428e20b4a179865ae, type: 2}
